@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+         <link rel="stylesheet" href="style.css"> 
+         <style>
+            /* Contact Page Styling */
+.contact-page {
+    background: linear-gradient(to right, #66eac2, #a24b8f);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+.contact-page h1 {
+    color: white;
+    margin-top: 30px;
+}
+
+/* Form box */
+.contact-form {
+    background: white;
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: left;
+}
+
+/* Labels */
+.contact-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+}
+
+/* Inputs */
+.contact-form input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Input focus effect */
+.contact-form input:focus {
+    outline: none;
+    border: 2px solid #667eea;
+}
+
+/* Button */
+.contact-form button {
+    width: 100%;
+    margin-top: 15px;
+    padding: 10px;
+    border: none;
+    background-color: #eac766;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Button hover */
+.contact-form button:hover {
+    background-color: #4b5ba2;
+}
+
+/* Back link */
+.contact-page p a {
+    color: white;
+    text-decoration: none;
+}
+
+.contact-page p a:hover {
+    text-decoration: underline;
+}
+         </style>
+    </head>
+    <body class="contact-page">
+    <nav>
+        <a href="about.html">About Me</a>
+        <a href="skills.html">My Skills</a>
+        <a href="interests.html">My Interests</a>
+        <a href="contact.html">Contact Me</a>
+    </nav>
+    <h1>Contact Me</h1>
+
+<form class="contact-form">
+  <label for="Name">Name:</label>
+  <input type="text" id="Name" name="Name" required>
+
+  <label for="email">Email Address:</label>
+  <input type="email" id="email" name="email" required>
+
+  <button type="submit">Submit</button>
+</form>
+
+<p><a href="about.html">Back to About Me</a></p>
+
+    </body>
+</html>
